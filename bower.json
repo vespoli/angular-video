@@ -1,0 +1,30 @@
+{
+  "name": "angular-video",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vespoli/angular-video",
+  "authors": [
+    "David Vespoli <david.vespoli@gmail.com>"
+  ],
+  "description": "Generic video component for angular",
+  "main": "directive.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "video",
+    "youtube",
+    "brightcove"
+  ],
+  "dependencies": {
+    "angular": ">=1.0.8"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
