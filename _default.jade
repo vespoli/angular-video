@@ -1,5 +1,5 @@
 .contain.fade-in(ng-if="item.video.brightcove")
-  brightcove(video-id="{{item.video.brightcove.brightcove_id}}" player-id="{{item.video.brightcove.players['800x450'].player_id}}" player-key="item.video.brightcove.players.800x450.player_key")
+  brightcove( width="800" height="450" video-id="{{item.video.brightcove.brightcove_id}}" player-id="{{item.video.brightcove.players['800x450'].player_id}}" player-key="item.video.brightcove.players.800x450.player_key")
 
 .contain.fade-in(ng-if="item.video.youtube")
   .video-wrap(youtube video-id="{{item.video.youtube.video_id}}" width="800" height="450")

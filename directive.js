@@ -4,14 +4,16 @@ angular.module('ccbApp').directive("brightcove", function($timeout) {
     replace: true,
     transclude: false,
     scope: {
+      height:   "@",
+      width:    "@",
       videoId: "@",
       playerId: "@",
       playerKey: "@"
     },
     template: '<object id="myExperience{{ videoId }}" class="BrightcoveExperience"">\
                 <param name="bgcolor" value="#ffffff">\
-                <param name="width" value="800">\
-                <param name="height" value="534">\
+                <param name="width" value="{{ width }}">\
+                <param name="height" value="{{ height }}">\
                 <param name="playerID" value="{{ playerId }}">\
                 <param name="playerKey" value="{{ playerKey }}">\
                 <param name="isVid" value="true">\
