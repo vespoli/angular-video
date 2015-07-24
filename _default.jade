@@ -1,0 +1,5 @@
+.contain.fade-in(ng-if="item.video.brightcove")
+  brightcove(video-id="{{item.video.brightcove.video_id}}")
+
+.contain.fade-in(ng-if="item.video.youtube")
+  .video-wrap(youtube video-id="{{item.video.youtube.video_id}}" width="800" height="450")
