@@ -1,4 +1,4 @@
-angular.module('ccbApp').directive("brightcove", function($timeout) {
+angular.module('myApp').directive("brightcove", function($timeout) {
   return {
     restrict: "E",
     replace: true,
@@ -31,7 +31,7 @@ angular.module('ccbApp').directive("brightcove", function($timeout) {
   };
 });
 
-angular.module('ccbApp').directive('youtube', function($window) {
+angular.module('myApp').directive('youtube', function($window) {
   return {
     restrict: "A",
 
